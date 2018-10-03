@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
 <h1>{{ page.title }}</h1>
-
-<p class="view">by <img src="https://github.com/{{ page.author | default: site.author }}.png?size=80" alt="user" width="80" /></p>
+<p class="view">{{ page.date | date: "%-d %B %Y" }} | <img src="https://github.com/{{ page.author | default: site.author }}.png?size=32" alt="user" width="32" class="page-author"/></p>
 
 {{content}}
 
