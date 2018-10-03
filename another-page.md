@@ -6,6 +6,6 @@ date: 03/10/2018
 ---
 
 
-<a href="{{site.github.repository_url}}/blob/gh-pages/{{page.path}}">Edit this page</a>
+<p>Content of this blog post</p>
 
 [back](./)
