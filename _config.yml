@@ -2,3 +2,4 @@ title: Sample Docs
 description: A sample repository to showcase an open-source documentation site.
 theme: jekyll-theme-minimal
 logo: /assets/img/thumbnail.png
+baseurl: /sample-docs
